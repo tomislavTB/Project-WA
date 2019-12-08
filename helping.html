@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="description" content="Programiranje Web aplikacija">
+  <meta name="author" content="Tomislav Buhovac">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/helping.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  <header>
+
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html"><i class="fas fa-globe-europe"></i>Početna</a></li>
+        <li><a href="news.html"><i class="fas fa-newspaper"></i>Novosti</a></li>
+        <li><a href="helping.html"><i class="fas fa-hands-helping"></i>Pomozimo</a></li>
+        <li><a href="interesting.html"><i class="fas fa-info"></i></i>Zanimljivosti</a></li>
+        <li class="right"><a href="about_us.html"><i class="fas fa-question-circle"></i> nama</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <main>
+    <div class="text">
+      <h2>Pomozite nam u zaštiti okoliša! </h2>
+      <h4>Molimo vas da upisete svoje podatke kao bi vas mogli obavjestiti kod budučih akcija i događanja vezano za
+        zaštitu okoliša u vašem gradu.</h4>
+
+
+      <div class="container">
+        <form action="/action_page.php">
+          <div class="myRow">
+            <div class="col-25">
+              <label for="fname">Ime</label>
+            </div>
+            <div class="col-75">
+              <input required type="text" id="fname" name="firstname" placeholder="Upišite vaše ime">
+            </div>
+          </div>
+          <div class="myRow">
+            <div class="col-25">
+              <label for="lname">Prezime</label>
+            </div>
+            <div class="col-75">
+              <input required type="text" id="lname" name="lastname" placeholder="Upišite vaše prezime">
+            </div>
+          </div>
+          <div class="myRow">
+            <div class="col-25">
+              <label for="lname">Emali</label>
+            </div>
+            <div class="col-75">
+              <input required type="email" id="lname" name="email" placeholder="Upišite vašu email adresu">
+            </div>
+          </div>
+          <div class="myRow">
+            <div class="col-25">
+              <label for="grad">Grad</label>
+            </div>
+            <div class="col-75">
+              <select id="grad" name="grad">
+                <option value="Zagreb">Zagreb</option>
+                <option value="Velika Gorica">Velika Gorica</option>
+                <option value="Rijeka">Rijeka</option>
+                <option value="Sisak">Siasak</option>
+                <option value="Slavonski Brod">Trogir</option>
+                <option value="Karlovac">Karlovac</option>
+                <option value="Šibenik">Šibenik</option>
+                <option value="Požega">Požega</option>
+                <option value="Čakovec">Čakovec</option>
+                <option value="Virovitica">Virovitica</option>
+                <option value="Županja">Županja</option>
+                <option value="Rovinj">Rovinj</option>
+
+              </select>
+            </div>
+          </div>
+          <div class="myRow">
+            <div class="col-25">
+              <label for="subject">Dodatno</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Dodajte opis, svoje prijedloge i želje..."
+                style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="myRow">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; <years>2019</years> Tomislav Buhovac. <a href="https://github.com/tomislavTB"><img
+          src="images/git.webp" title="GitHub" alt="GitHub"></a></p>
+  </footer>
+</body>
+
+
+
+</html>

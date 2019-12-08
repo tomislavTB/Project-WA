@@ -1,0 +1,60 @@
+
+
+body {
+  background-image: url("../images/background.jpg")
+}
+
+ p { 
+ color: black;
+ margin-left: 0%;
+ }  
+
+ a {
+  color: red;
+ }
+
+.news img {
+    width: 10%;
+    float: left;
+    padding: 0.5em;
+    margin: 0 1em 0.5em 0.5em;
+  }
+  
+  .news h3 {
+    margin: 0.5em 0.7em;
+    font-size: 1.2em;
+    color: blue;
+ 
+  }
+  
+  .news hr {
+    margin: 1em;
+    border: 0px outset;
+    clear: both;
+  }
+  
+  .news time {
+    font-size: 90%;
+    font-style: italic;
+  }
+  .news {
+    margin-bottom: 5%;
+  }
+
+
+  @media screen and (max-width: 600px) {
+
+    .news {
+      margin-bottom: 20%;
+    }
+
+    .news img {
+      width: 30%;
+      float: left;
+      padding: 0.2em;
+      margin: 0 1em 0.1em 0.1em;
+    }
+
+  }
+
+  
